@@ -1,73 +1,61 @@
-# 📊 Stock Portfolio Tracker
+# Stock Portfolio Tracker
 
-A professional, real-time stock portfolio tracker built using **Python**, **customtkinter**, and **yfinance**, developed as part of the internship program at **CodeAlpha**.
+This is a real-time stock portfolio tracking desktop application built using **Python**, **customtkinter**, and **yfinance**, developed as part of my internship project at **CodeAlpha**.
 
-This app allows users to:
-- Track live stock prices
-- Add multiple stocks with quantities
-- View total investment value
-- Visualize portfolio distribution with an interactive pie chart
-- Save the portfolio summary to a `.csv` or `.txt` file
+The tool allows users to manage a personal stock portfolio by adding stock symbols and quantities, tracking real-time market prices, and visualizing investment distribution using an interactive pie chart.
 
 ---
 
-##  Features
+## Features
 
--  **Real-time stock price fetching** using `yfinance`
--  **Modern UI** using `customtkinter` with dark mode
--  **Rounded buttons** with hover effects
--  **Dashboard layout** with tabs for future enhancements
--  **Pre-filled dropdown suggestions** for popular stocks
--  **Save portfolio** to a `.csv` or `.txt` file
--  **Interactive pie chart** using Plotly
+- Real-time price fetching for global and Indian stock symbols
+- Intuitive and modern user interface using `customtkinter`
+- Dashboard layout with tabbed views
+- Pre-filled suggestions for popular stocks
+- Portfolio summary including total investment
+- Export data to `.csv` or `.txt` file
+- Interactive pie chart visualization with Plotly
+
+---
 
 
-
-##  Technologies Used
+## Technologies Used
 
 - Python 3.x
-- customtkinter (modern UI)
-- yfinance (real-time stock prices)
-- plotly (interactive pie chart)
-- tkinter (file dialogs, alerts)
+- [customtkinter](https://github.com/TomSchimansky/CustomTkinter) – for modern, themed UI components
+- [yfinance](https://pypi.org/project/yfinance/) – for live stock data
+- [Plotly](https://plotly.com/python/) – for interactive charts
 
 ---
 
-## 🧑‍💻 How to Run the Project
+## Getting Started
 
 ### 1. Clone the repository
 
-
+```bash
 git clone https://github.com/rishiii026/CodeAlpha_StockPortfolioTracker.git
 cd CodeAlpha_StockPortfolioTracker
 
-2. Install the dependencies
-Make sure you have Python 3 installed. Then run:
-
-
+2. Install dependencies
 pip install customtkinter yfinance plotly
 
-
 3. Run the application
-
-
 python stock_tracker_ctk.py
-📁 Project Structure
 
-
+Project Structure
 ├── stock_tracker_ctk.py      # Main application file
 ├── README.md                 # Project documentation
 
+Future Enhancements
+Price history chart under the History tab
 
-🙌 Acknowledgements
-Developed during internship at CodeAlpha
+Total gains/losses summary
 
-Yahoo Finance API via yfinance
+Sector-wise investment analysis
 
-customtkinter for modern UI framework
+Web-based deployment using Flask or Streamlit
 
-📬 Contact
-Developer: Aniket Shrivastav
-📧 GitHub: @rishiii026
+About the Project
+This project was developed during my internship at CodeAlpha as a demonstration of full-stack Python application development with real-time data integration and modern UI design.
 
-feel free to reach out for collaboration or feedback!
+For any feedback or collaboration opportunities, feel free to get in touch.

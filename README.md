@@ -11,19 +11,19 @@ This app allows users to:
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **Real-time stock price fetching** using `yfinance`
-- ✅ **Modern UI** using `customtkinter` with dark mode
-- ✅ **Rounded buttons** with hover effects
-- ✅ **Dashboard layout** with tabs for future enhancements
-- ✅ **Pre-filled dropdown suggestions** for popular stocks
-- ✅ **Save portfolio** to a `.csv` or `.txt` file
-- ✅ **Interactive pie chart** using Plotly
+-  **Real-time stock price fetching** using `yfinance`
+-  **Modern UI** using `customtkinter` with dark mode
+-  **Rounded buttons** with hover effects
+-  **Dashboard layout** with tabs for future enhancements
+-  **Pre-filled dropdown suggestions** for popular stocks
+-  **Save portfolio** to a `.csv` or `.txt` file
+-  **Interactive pie chart** using Plotly
 
 
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python 3.x
 - customtkinter (modern UI)
@@ -57,14 +57,8 @@ python stock_tracker_ctk.py
 
 ├── stock_tracker_ctk.py      # Main application file
 ├── README.md                 # Project documentation
-📦 Future Enhancements
-📈 Stock price history chart (under History tab)
+    Future Enhancements
 
-📊 Statistics like top gainers/losers
-
-🌐 Convert to web app using Flask or Streamlit
-
-🧠 Add autocomplete with live suggestions
 
 🙌 Acknowledgements
 Developed during internship at CodeAlpha

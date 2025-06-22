@@ -36,26 +36,30 @@ The tool allows users to manage a personal stock portfolio by adding stock symbo
 git clone https://github.com/rishiii026/CodeAlpha_StockPortfolioTracker.git
 cd CodeAlpha_StockPortfolioTracker
 
-2. Install dependencies
+###2. Install dependencies
 pip install customtkinter yfinance plotly
 
-3. Run the application
+###3. Run the application
 python stock_tracker_ctk.py
 
-Project Structure
+## Project Structure
 ├── stock_tracker_ctk.py      # Main application file
 ├── README.md                 # Project documentation
 
-Future Enhancements
-Price history chart under the History tab
 
-Total gains/losses summary
 
-Sector-wise investment analysis
+##Future Enhancements
 
-Web-based deployment using Flask or Streamlit
+-Price history chart under the History tab
 
-About the Project
-This project was developed during my internship at CodeAlpha as a demonstration of full-stack Python application development with real-time data integration and modern UI design.
+-Total gains/losses summary
+
+-Sector-wise investment analysis
+
+-Web-based deployment using Flask or Streamlit
+
+## About the Project
+
+$$$ This project was developed during my internship at CodeAlpha as a demonstration of full-stack Python application development with real-time data integration and modern UI design.
 
 For any feedback or collaboration opportunities, feel free to get in touch.

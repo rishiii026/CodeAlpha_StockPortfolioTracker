@@ -57,7 +57,6 @@ python stock_tracker_ctk.py
 
 ├── stock_tracker_ctk.py      # Main application file
 ├── README.md                 # Project documentation
-    Future Enhancements
 
 
 🙌 Acknowledgements
